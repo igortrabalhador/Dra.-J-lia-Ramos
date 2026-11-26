@@ -1,0 +1,87 @@
+{
+  "brand": {
+    "name": "Dra. Júlia Ramos",
+    "specialty": "Cirurgia Plástica da Face e Otorrinolaringologia",
+    "direction": "Conceito C — Escultura Natural",
+    "markType": "Monograma caligráfico orgânico JR"
+  },
+  "colors": {
+    "warmIvory": {
+      "name": "Warm Ivory",
+      "hex": "#F4EBE1",
+      "rgb": [244, 235, 225],
+      "oklch": { "l": 0.944, "c": 0.017, "h": 70.5 },
+      "role": "Fundo principal claro, papelaria, respiro orgânico"
+    },
+    "alpineOat": {
+      "name": "Alpine Oat",
+      "hex": "#DFCFC0",
+      "rgb": [223, 207, 192],
+      "oklch": { "l": 0.864, "c": 0.027, "h": 65.6 },
+      "role": "Superfície secundária, cartões suaves e detalhes"
+    },
+    "warmTaupe": {
+      "name": "Warm Taupe",
+      "hex": "#A38770",
+      "rgb": [163, 135, 112],
+      "oklch": { "l": 0.643, "c": 0.048, "h": 61.2 },
+      "role": "Neutro quente, filetes, elementos de apoio"
+    },
+    "terracotta": {
+      "name": "Terracotta",
+      "hex": "#944227",
+      "rgb": [148, 66, 39],
+      "oklch": { "l": 0.482, "c": 0.118, "h": 38.5 },
+      "role": "Acento terroso quente, padronagens e embalagens",
+      "wcagOnWarmIvory": "5.81:1 (AA)"
+    },
+    "oliveGreen": {
+      "name": "Olive Green",
+      "hex": "#5B5033",
+      "rgb": [91, 80, 51],
+      "oklch": { "l": 0.434, "c": 0.046, "h": 89.6 },
+      "role": "Acento botânico sereno, equilíbrio natural",
+      "wcagOnWarmIvory": "6.75:1 (AA+)"
+    },
+    "cherryVelvet": {
+      "name": "Cherry Velvet",
+      "hex": "#5A2024",
+      "rgb": [90, 32, 36],
+      "oklch": { "l": 0.332, "c": 0.085, "h": 18.9 },
+      "role": "Assinatura principal em vermelho vinho aveludado",
+      "wcagOnWarmIvory": "10.69:1 (AAA)"
+    },
+    "bordeauxNoir": {
+      "name": "Bordeaux Noir",
+      "hex": "#32191F",
+      "rgb": [50, 25, 31],
+      "oklch": { "l": 0.250, "c": 0.041, "h": 5.0 },
+      "role": "Âncora escura de luxo, tipografia e fundos escuros",
+      "wcagOnWarmIvory": "13.76:1 (AAA)"
+    }
+  },
+  "typography": {
+    "display": {
+      "family": "Italiana",
+      "weight": 400,
+      "license": "SIL Open Font License 1.1 (OFL)",
+      "usage": "Wordmark DRA. JÚLIA RAMOS, títulos editoriais"
+    },
+    "body": {
+      "family": "Jost",
+      "weights": [300, 400, 500],
+      "license": "SIL Open Font License 1.1 (OFL)",
+      "usage": "Subtítulo da especialidade, textos institucionais, papelaria e digital"
+    }
+  },
+  "guidelines": {
+    "clearSpace": "Margem mínima de proteção equivalente à altura da alça esquerda do monograma JR (≈ 25% da altura total do símbolo).",
+    "minimumSizes": {
+      "symbolStandard": "32 px (digital) / 12 mm (impresso)",
+      "symbolSmallOpticalCut": "16–32 px (favicon, micro-assinaturas, bordado fino)",
+      "horizontalWithSubtitle": "180 px de largura (digital) / 45 mm (impresso)",
+      "compactWordmarkNoSubtitle": "80–180 px de largura (quando o subtítulo ficaria pequeno demais)"
+    },
+    "cvdRule": "Nunca aplicar Terracotta diretamente sobre Olive Green sem separação neutra (ΔE2000 cai para 3.8 sob protanopia). Sempre parear com Warm Ivory, Alpine Oat ou Bordeaux Noir."
+  }
+}

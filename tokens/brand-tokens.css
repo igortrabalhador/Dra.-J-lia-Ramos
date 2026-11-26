@@ -1,0 +1,30 @@
+/* Dra. Júlia Ramos — Identidade Visual (Versão C · Escultura Natural)
+ * Paleta Cromática Unificada (Base Orgânica + Tons de Vinho)
+ * Auditada em OKLCH, WCAG AA/AAA e simulação CVD (Protan/Deutan/Tritan)
+ */
+
+:root {
+  /* Paleta Unificada */
+  --brand-warm-ivory: #F4EBE1;    /* OKLCH(0.944 0.017 70.5)  — Fundo principal claro */
+  --brand-alpine-oat: #DFCFC0;    /* OKLCH(0.864 0.027 65.6)  — Superfície suave */
+  --brand-warm-taupe: #A38770;    /* OKLCH(0.643 0.048 61.2)  — Neutro quente & detalhes */
+  --brand-terracotta: #944227;    /* OKLCH(0.482 0.118 38.5)  — Acento terroso (5.81:1 AA sobre Ivory) */
+  --brand-olive-green: #5B5033;   /* OKLCH(0.434 0.046 89.6)  — Acento botânico (6.75:1 AA+ sobre Ivory) */
+  --brand-cherry-velvet: #5A2024; /* OKLCH(0.332 0.085 18.9)  — Assinatura rubi/vinho (10.69:1 AAA sobre Ivory) */
+  --brand-bordeaux-noir: #32191F; /* OKLCH(0.250 0.041 5.0)   — Âncora escura de luxo (13.76:1 AAA sobre Ivory) */
+
+  /* Papéis Semânticos (Modo Claro Editorial) */
+  --surface-primary: var(--brand-warm-ivory);
+  --surface-secondary: var(--brand-alpine-oat);
+  --surface-dark: var(--brand-bordeaux-noir);
+  --surface-accent-wine: var(--brand-cherry-velvet);
+
+  --ink-primary: var(--brand-bordeaux-noir);
+  --ink-brand: var(--brand-cherry-velvet);
+  --ink-muted: var(--brand-warm-taupe);
+  --ink-on-dark: var(--brand-warm-ivory);
+
+  /* Tipografia Oficial (Licença Comercial Aberta SIL OFL) */
+  --font-display: "Italiana", Georgia, "Times New Roman", serif;
+  --font-sans: "Jost", "Helvetica Neue", Arial, sans-serif;
+}
