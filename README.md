@@ -27,6 +27,13 @@ Todos os arquivos SVG deste repositório são **100% vetoriais puros**:
 ## Estrutura de Pastas
 
 ```text
+apresentacao/
+├── dra-julia-ramos-apresentacao.pdf          # Apresentação completa em PDF (6 slides 16:9)
+├── studio-interativo.html                    # Estúdio interativo 100% offline (abra no navegador)
+├── dra-julia-ramos-prancha-identidade.png    # Prancha colorida dos 3 conceitos
+├── dra-julia-ramos-conceitos-escala.png      # Folha técnica em escala de cinza (512/64/32/16 px)
+├── dra-julia-ramos-versao-c-exportados.png   # Conferência visual dos SVGs exportados
+└── identidade-visual.md                      # Resumo visual no GitHub
 svg/
 ├── simbolo/        # Símbolo JR isolado (7 cores + currentColor) + corte ótico 16–32 px
 ├── horizontal/     # Assinatura horizontal completa (7 variações de cor)
